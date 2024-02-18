@@ -27,8 +27,8 @@
    	WRITE(*,*) 'Der. ln(2) Taylor >>> ', d1
    	WRITE(*,*) 'Der. ln(2) Definição >>> ', d2
    	WRITE(*,*) 'Der. ln(2) Exata >>> ', d3
-   	WRITE(*,*) 'Abs. Taylot - Exata >>> ', abs(d1-d3)
-   	WRITE(*,*) 'Abs. Taylot - Exata >>> ', abs(d2-d3)
+   	WRITE(*,*) 'Abs. Taylor - Exata >>> ', abs(d1-d3)
+   	WRITE(*,*) 'Abs. Definição - Exata >>> ', abs(d2-d3)
    
 
 	END PROGRAM derivada
