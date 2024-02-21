@@ -1,1 +1,53 @@
+Jonatan P. Paschoal
+23 de janeiro de 2024.
+-------------------------------------------------
+## Canal - Bóson treinamentos
+Play list - Programação em fortran
+Link - https://www.youtube.com/watch?v=G1-dYUN831k&list=PLucm8g_ezqNpyGISxhMLrPaSM-OoDrFn0
+-------------------------------------------------
+##  Estrutura básica de um programa Fortran
+
+	PROGRAM nome_programa (63_caracteres_minúscula)
+
+	IMPLICIT NONE
+
+   		[especificação (variáveis)] (132 caracteres)
+   		[execução (lógica principal)]
+   		[subprogramas (funçõese procedimentos)]
+
+	END PROGRAM nome_programa
+	
+-------------------------------------------------
+	|Seção de declaração
+	|Seção de execução
+	|Seção de Terminação
+-------------------------------------------------
+## Compilador on line
+Link - https://wwww.onlinegdb.com/
+-------------------------------------------------
+## Pág. GFortran
+Link  - https://gcc.gnu.org/fortran/
+-------------------------------------------------
+## Instalação - 
+$ sudo apt install gfortran
+-------------------------------------------------
+## CMD's, compilação e execução - 
+$ gfortran -o nome_arquivo_saida arquivo.for90
+$ ./nome_arquivo_saida
+-------------------------------------------------
+## CMD, consultar versão - 
+$ gfortran --version
+-------------------------------------------------
+## CMD, instalação IDE geany (ed. de texto)- 
+$ sudo apt install geany
+-------------------------------------------------
+## CMD, listar arquivos - 
+$ ls -l
+-------------------------------------------------
+## Resultado na forma de potência
+E[+-numero_inteiro] --> x10^[+-numero_inteiro]
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
 
