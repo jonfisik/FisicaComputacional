@@ -3,6 +3,8 @@ Jonatan P. Paschoal - 18/02/2024
 ##  Compilação e execução fortran 77 
 $ f77 derivada.for -o lixo
 $ ./lixo
+$ gfortran integral.for -o lixo -w
+$ ./lixo
 ---------------------------------------------------
 ##  Compilação e execução C 
 $ gcc derivada.c -o a.out -lm
