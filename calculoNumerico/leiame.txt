@@ -13,3 +13,6 @@ $ ./a.out
 ## PDF - Fortran
 link - http://www.egr.unlv.edu/~ed/fortran.html
 ---------------------------------------------------
+## Play list Física Computacional 1
+Link - https://www.youtube.com/playlist?list=PLCWOBtltrHovcMBoapQp7NfmsUyu0YRwc
+---------------------------------------------------
