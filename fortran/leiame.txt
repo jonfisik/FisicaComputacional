@@ -50,6 +50,25 @@ $ ls -l
 ## Resultado na forma de potência
 E[+-numero_inteiro] --> x10^[+-numero_inteiro]
 -------------------------------------------------
+## Tipos de erro
+-------------------------------------------------
+* compiler error (compilação) - Exemplos
+- Não classificado
+wrote(*,*)
+1
+Error: Unclassifiable statement at (1)
+- Classificado
+read(*,*) leaght, angle
+	       1
+Error: Symbol 'leaght' at (1) has no IMPLICIT type
+-------------------------------------------------
+* Run-time Error (execução) - Exemplos
+Entrada de um dado diferente do que se pede.
+-------------------------------------------------
+* Logic Error (lógica) - Exemplos
+Saída diferente do que se espera.
+-------------------------------------------------
+-------------------------------------------------
 -------------------------------------------------
 -------------------------------------------------
 -------------------------------------------------
