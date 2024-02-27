@@ -122,9 +122,26 @@ else
 	<declaracoes fortran>
 end if
 --------------------------------------------------------------------------------------------
-## SELECT CASE
+## SELECT CASE (Variáveis, tipos - Inteiros, caracter e lógico)
 --------------------------------------------------------------------------------------------
+select case (variavel, cte)
+	case (seletor 1)
+		<declaracoes fortran 1>
+	case (seletor 2)
+		<declaracoes fortran 2>
+		.
+		.
+		.
+	case (seletor n)
+		<declaracoes fortran n>
+	case default !! Nao obrigatorio
+		<declaracoes fortran default>
+	end case
 --------------------------------------------------------------------------------------------
+case (valor)
+case (valor1 : valor2)
+case (valor : ) !! maior igual
+case ( : valor) !! menor igual
 --------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------
