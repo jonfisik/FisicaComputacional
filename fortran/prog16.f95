@@ -10,9 +10,15 @@
 			
 		REAL(dp) :: a,b,c !! Definindo dupla precisão
 		REAL(dp) :: prog16funcao
-		a=4; b=5
+		!! a=4; b=5
+
+    		a=5
+      		b=3
+		c=0
 	
-		c=prog16funcao(a,b)
+		!! c=prog16funcao(a,b)
+
+  		call prog16subrotina(a,b,c)
 		
 		WRITE(*,*) '-------------------'
 		PRINT*,c
