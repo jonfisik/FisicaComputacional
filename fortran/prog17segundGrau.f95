@@ -44,6 +44,7 @@
 			WRITE(*,*) '-------------------------------'
 			
 		!! discriminante == 0
+  		!! else if(abs(discr)<1.0e-10) then
 		else
 			raiz1=-b/(2.0*a)
 			
