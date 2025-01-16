@@ -7,6 +7,9 @@ Link - https://www.youtube.com/watch?v=G1-dYUN831k&list=PLucm8g_ezqNpyGISxhMLrPa
 Play list - Programação científica
 Link - https://www.youtube.com/playlist?list=PL0otdPDrQZOIKULtTDRR5eO0nk0IO-TfT
 --------------------------------------------------------------------------------------------
+## PDF - Fortran
+link - http://www.egr.unlv.edu/~ed/fortran.html
+--------------------------------------------------------------------------------------------
 ##  Estrutura básica de um programa Fortran
 
 	PROGRAM nome_programa (63_caracteres_minúscula)
