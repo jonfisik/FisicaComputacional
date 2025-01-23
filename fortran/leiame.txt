@@ -34,6 +34,8 @@ SO (gerencia e executa) - Interface entre usuario e hardware !!! (compilador)
 	|Seção de execução
 	|Seção de Terminação
 --------------------------------------------------------------------------------------------
+! - comentario em fortran
+--------------------------------------------------------------------------------------------
 ## Compilador on line
 Link - https://wwww.onlinegdb.com/
 Link - https://www.mycompiler.io/pt
@@ -56,6 +58,9 @@ $ sudo apt install geany
 --------------------------------------------------------------------------------------------
 ## CMD, listar arquivos - 
 $ ls -l
+--------------------------------------------------------------------------------------------
+## Saida simples em fortran
+write(*,*)"Ola mundo!", descritores (onde escrever,como escrever) -- write(*,*) Forma padrao
 --------------------------------------------------------------------------------------------
 ## Resultado na forma de potência
 E[+-numero_inteiro] --> x10^[+-numero_inteiro]
