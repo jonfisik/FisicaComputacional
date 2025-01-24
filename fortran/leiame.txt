@@ -15,7 +15,7 @@ Link - https://www.youtube.com/playlist?list=PL0otdPDrQZOIKULtTDRR5eO0nk0IO-TfT
 link - http://www.egr.unlv.edu/~ed/fortran.html
 Documentacao - http://gcc.gnu.org/onlinedocs/gcc-9.2.0/gfortran/
 --------------------------------------------------------------------------------------------
-SO (gerencia e executa) - Interface entre usuario e hardware !!! (compilador)
+CONCEITO - SO (gerencia e executa) - Interface entre usuario e hardware !!! (compilador)
 --------------------------------------------------------------------------------------------
 ##  Estrutura básica de um programa Fortran
 
