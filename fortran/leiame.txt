@@ -62,6 +62,9 @@ $ ls -l
 ## Saida simples em fortran
 write(*,*)"Ola mundo!", descritores (onde escrever,como escrever) -- write(*,*) Forma padrao
 --------------------------------------------------------------------------------------------
+## CONCEITO - Variavel, referencia de uma certa posicao na memoria do computador 
+(alocando memoria). Variaveis diferentes utilizam tamanhos diferentes na memoria
+--------------------------------------------------------------------------------------------
 ## Resultado na forma de potência
 E[+-numero_inteiro] --> x10^[+-numero_inteiro]
 --------------------------------------------------------------------------------------------
