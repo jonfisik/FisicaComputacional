@@ -64,6 +64,7 @@ write(*,*)"Ola mundo!", descritores (onde escrever,como escrever) -- write(*,*) 
 --------------------------------------------------------------------------------------------
 ## CONCEITO - Variavel, referencia de uma certa posicao na memoria do computador 
 (alocando memoria). Variaveis diferentes utilizam tamanhos diferentes na memoria
+Tamanho, integer (−2,147,483,648 a +2,147,483,647), real (±1.7×10±38)
 --------------------------------------------------------------------------------------------
 ## Resultado na forma de potência
 E[+-numero_inteiro] --> x10^[+-numero_inteiro]
