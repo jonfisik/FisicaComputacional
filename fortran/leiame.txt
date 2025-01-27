@@ -72,7 +72,14 @@ subtracao (-), variavel1 - variavel2,  3 - 9, 3.0 - 9.
 multiplicacao (*), variavel1 * variavel2,  3 * 9, 3.0 * 9.
 divisao(/), variavel1 + variavel2, 3.0 + 9.
 potenciacao (**) variavel1 ** 3
-radiciacao (**(a/b)), x**(1/3.)
+radiciacao (**(a/b)), x**(1./3.)
+
+## Ordem das operacoes
+1) - unary
+2) ** potenciacao
+3) * / multiplicacao, divisao
+4) + - adicao, subtracao
+Segue as regras da matematica
 --------------------------------------------------------------------------------------------
 
 ## Resultado na forma de potência
