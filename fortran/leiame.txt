@@ -10,6 +10,7 @@ Link - https://www.youtube.com/playlist?list=PL0otdPDrQZOIKULtTDRR5eO0nk0IO-TfT
 ## Canal - Ricardo Almeida
 Play list - Fortran 95
 Link - https://www.youtube.com/playlist?list=PL0otdPDrQZOIKULtTDRR5eO0nk0IO-TfT
+Aula de 1 a 5
 --------------------------------------------------------------------------------------------
 ## PDF - Fortran
 link - http://www.egr.unlv.edu/~ed/fortran.html
@@ -81,7 +82,12 @@ radiciacao (**(a/b)), x**(1./3.)
 4) + - adicao, subtracao
 Segue as regras da matematica
 --------------------------------------------------------------------------------------------
-
+## Funcoes intrisicas 
+real, parameter :: pi = 3.14159 !! parameter - constante
+real :: z
+z = cos(pi)
+Dica para calculo de pi, pi = 4.0*atan(1.0)
+--------------------------------------------------------------------------------------------
 ## Resultado na forma de potência
 E[+-numero_inteiro] --> x10^[+-numero_inteiro]
 --------------------------------------------------------------------------------------------
