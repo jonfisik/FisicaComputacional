@@ -66,6 +66,15 @@ write(*,*)"Ola mundo!", descritores (onde escrever,como escrever) -- write(*,*) 
 (alocando memoria). Variaveis diferentes utilizam tamanhos diferentes na memoria
 Tamanho, integer (−2,147,483,648 a +2,147,483,647), real (±1.7×10±38)
 --------------------------------------------------------------------------------------------
+## Operacoes
+adicao (+), variavel1 + variavel2,  3 + 9, 3.0 + 9. 
+subtracao (-), variavel1 - variavel2,  3 - 9, 3.0 - 9.
+multiplicacao (*), variavel1 * variavel2,  3 * 9, 3.0 * 9.
+divisao(/), variavel1 + variavel2, 3.0 + 9.
+potenciacao (**) variavel1 ** 3
+radiciacao (**(a/b)), x**(1/3.)
+--------------------------------------------------------------------------------------------
+
 ## Resultado na forma de potência
 E[+-numero_inteiro] --> x10^[+-numero_inteiro]
 --------------------------------------------------------------------------------------------
