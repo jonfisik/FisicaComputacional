@@ -88,6 +88,11 @@ real :: z
 z = cos(pi)
 Dica para calculo de pi, pi = 4.0*atan(1.0)
 --------------------------------------------------------------------------------------------
+## Funcao de conversao
+real(<argumento inteiro>)
+int(<argumento real>)
+nint(<argumento real>) - arredonda para o inteiro mais proximo
+--------------------------------------------------------------------------------------------
 ## Resultado na forma de potência
 E[+-numero_inteiro] --> x10^[+-numero_inteiro]
 --------------------------------------------------------------------------------------------
