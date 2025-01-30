@@ -104,7 +104,16 @@ Para inteiros trata-se da extesão
 integer*8 :: variavel1 (forma obsoleta)
 integer(kind=8) :: variavel1 (forma moderna)
 
-Para reais
+Para reais trata-se de precisao (depende da maquina)
+real*8 :: variavel2
+real(kind=8) :: variavel2
+
+Funcao selectec_real_kind
+kind_number_s=selected_real_kind(p=15)
+kind_number_d=selected_real_kind(p=31)
+
+real(kind=kind_numer_s)::variavel_s
+real(kind=kind_numer_d)::variavel_d
 --------------------------------------------------------------------------------------------
 ## Resultado na forma de potência
 --------------------------------------------------------------------------------------------
