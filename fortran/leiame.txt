@@ -98,6 +98,14 @@ real(<argumento inteiro>)
 int(<argumento real>)
 nint(<argumento real>) - arredonda para o inteiro mais proximo
 --------------------------------------------------------------------------------------------
+## variaveis com precisao extendida
+--------------------------------------------------------------------------------------------
+Para inteiros trata-se da extesão
+integer*8 :: variavel1 (forma obsoleta)
+integer(kind=8) :: variavel1 (forma moderna)
+
+Para reais
+--------------------------------------------------------------------------------------------
 ## Resultado na forma de potência
 --------------------------------------------------------------------------------------------
 E[+-numero_inteiro] --> x10^[+-numero_inteiro]
