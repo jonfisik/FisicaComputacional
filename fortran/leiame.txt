@@ -61,6 +61,12 @@ $ ls -l
 --------------------------------------------------------------------------------------------
 ## Saida simples em fortran
 write(*,*)"Ola mundo!", descritores (onde escrever,como escrever) -- write(*,*) Forma padrao
+
+1*, dispositivo padrao de saida
+      |
+write(*,*)
+        |
+2*, formato livre definido pelo compilador
 --------------------------------------------------------------------------------------------
 ## CONCEITO - Variavel, referencia de uma certa posicao na memoria do computador 
 (alocando memoria). Variaveis diferentes utilizam tamanhos diferentes na memoria
@@ -108,7 +114,7 @@ Para reais trata-se de precisao (depende da maquina)
 real*8 :: variavel2
 real(kind=8) :: variavel2
 
-Funcao selectec_real_kind
+Funcao intrisica selectec_real_kind
 kind_number_s=selected_real_kind(p=15)
 kind_number_d=selected_real_kind(p=31)
 
