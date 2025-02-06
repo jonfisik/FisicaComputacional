@@ -157,9 +157,11 @@ Error: Symbol 'leaght' at (1) has no IMPLICIT type
 Entrada de um dado diferente do que se pede.
 --------------------------------------------------------------------------------------------
 * Logic Error (lógica) - Exemplos
-Saída diferente do que se espera.
+Saída diferente do que se espera
+!! Formula escrita de forma errada (mundando ordem das operacoes)
+!! Operacao mista
 --------------------------------------------------------------------------------------------
-## Estrutura de decisão
+## Estruturas de decisão
 --------------------------------------------------------------------------------------------
 * Condicionais - Operadores relacionais (Variáveis, tipos semelhantes)
 Normais ----- Alternativo
