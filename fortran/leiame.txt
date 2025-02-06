@@ -145,10 +145,13 @@ E[+-numero_inteiro] --> x10^[+-numero_inteiro]
 wrote(*,*)
 1
 Error: Unclassifiable statement at (1)
+!! Sintaxe errada para o comando write(*,*)
+
 - Classificado
 read(*,*) leaght, angle
 	       1
 Error: Symbol 'leaght' at (1) has no IMPLICIT type
+!! Variavel não foi declarada corretamente
 --------------------------------------------------------------------------------------------
 * Run-time Error (execução) - Exemplos
 Entrada de um dado diferente do que se pede.
