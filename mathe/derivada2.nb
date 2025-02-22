@@ -1,0 +1,158 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5231,        150]
+NotebookOptionsPosition[      4239,        129]
+NotebookOutlinePosition[      4631,        145]
+CellTagsIndexPosition[      4588,        142]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData["Quit"], "Input",
+ CellChangeTimes->{{3.949220861456888*^9, 3.9492208627742434`*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"19c00c85-b7f7-4e68-93d6-5537a09ce752"],
+
+Cell[BoxData[
+ RowBox[{"NotebookDelete", "[", 
+  RowBox[{"Cells", "[", 
+   RowBox[{"CellStyle", "->", "\"\<Output\>\""}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.949222117140294*^9, 3.949222117141652*^9}},
+ CellLabel->"In[20]:=",ExpressionUUID->"7ba61874-2980-460f-a243-4b397424751e"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"Derivada", " ", 
+     RowBox[{"CMD", " ", "--"}], " ", 
+     RowBox[{"D", "[", 
+      RowBox[{"f", ",", "x"}], "]"}]}], " ", "=", " ", 
+    RowBox[{"D", "[", 
+     RowBox[{"funcao", ",", "variavel"}], "]"}]}], "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"f", "[", "x", "]"}], ":=", 
+    RowBox[{
+     RowBox[{"3", 
+      RowBox[{"x", "^", "2"}]}], "-", 
+     RowBox[{"2", 
+      RowBox[{"Sin", "[", "x", "]"}]}], "+", "1"}]}], ";"}]}]], "Input",
+ CellChangeTimes->{{3.9492210929461927`*^9, 3.949221204736388*^9}, 
+   3.949221269269751*^9, {3.9492214265758677`*^9, 3.949221430060197*^9}, {
+   3.949221488368487*^9, 3.949221495323999*^9}, 3.9492215416773453`*^9, {
+   3.9492216697956963`*^9, 3.949221676709844*^9}, {3.94922180038544*^9, 
+   3.949221801511785*^9}, {3.9492221749704*^9, 3.949222178887484*^9}, 
+   3.949222309268811*^9, {3.949222430687563*^9, 
+   3.949222435303527*^9}},ExpressionUUID->"852fd7c1-1cf5-482b-8ff3-\
+d0c3a9068a3f"],
+
+Cell[BoxData[
+ RowBox[{"D", "[", 
+  RowBox[{
+   RowBox[{"f", "[", "x", "]"}], ",", "x"}], "]"}]], "Input",
+ CellChangeTimes->{{3.949221684814005*^9, 3.949221704222569*^9}},
+ CellLabel->"In[13]:=",ExpressionUUID->"4fed2256-5d50-432d-8822-1f3e27d45d2c"],
+
+Cell[BoxData[
+ RowBox[{"D", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"3", 
+     RowBox[{"x", "^", "2"}]}], "-", 
+    RowBox[{"2", 
+     RowBox[{"Sin", "[", "x", "]"}]}], "+", "1"}], ",", "x"}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.949221234421302*^9, 3.949221278624868*^9}, {
+  3.9492223250777483`*^9, 
+  3.9492223268453217`*^9}},ExpressionUUID->"5cc39496-923d-4040-b30e-\
+8c4131ffdacc"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"D", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"3", 
+      RowBox[{"x", "^", "2"}]}], "-", 
+     RowBox[{"2", 
+      RowBox[{"Sin", "[", "x", "]"}]}], "+", "1"}], ",", "x"}], "]"}], "/.", 
+  RowBox[{"x", "->", "1.5", " ", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Deriva", " ", "a", " ", "funcao", " ", "em", " ", "um", " ", "ponto", 
+     " ", "especifico"}], "*)"}]}]}]], "Input",
+ CellChangeTimes->{{3.9492222539812717`*^9, 3.949222290501749*^9}, {
+  3.94922232977162*^9, 3.9492223304381657`*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"78c7d368-ff34-4a35-b217-ac205ab63676"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"D", "[", 
+   RowBox[{
+    RowBox[{"Cos", "[", 
+     RowBox[{"Pi", " ", "x"}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"x", ",", "2"}], "}"}]}], "]"}], " ", 
+  RowBox[{"(*", 
+   RowBox[{"Derivada", " ", "segunda", " ", "da", " ", "funcao"}], 
+   "*)"}]}]], "Input",
+ CellChangeTimes->{{3.949222441478991*^9, 
+  3.9492225100127153`*^9}},ExpressionUUID->"83fe53bf-43f6-496a-a0e2-\
+913ba5f0e8c3"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"D", "[", 
+   RowBox[{
+    RowBox[{"Tan", "[", 
+     RowBox[{"Pi", " ", "x"}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"x", ",", "3"}], "}"}]}], "]"}], 
+  RowBox[{"(*", 
+   RowBox[{"Derivada", " ", "terceira", " ", "da", " ", "funcao"}], 
+   "*)"}]}]], "Input",
+ CellChangeTimes->{{3.949222517574354*^9, 3.949222547424489*^9}, {
+  3.94922270348736*^9, 
+  3.9492227110896378`*^9}},ExpressionUUID->"09786f8e-a5c7-4961-8087-\
+3d86b612f756"]
+},
+WindowSize->{606, 748.5},
+WindowMargins->{{Automatic, 0}, {Automatic, 1.5}},
+FrontEndVersion->"13.3 for Linux x86 (64-bit) (July 24, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"9388429d-ae0b-4e64-9ab0-54f751185102"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 177, 2, 45, "Input",ExpressionUUID->"19c00c85-b7f7-4e68-93d6-5537a09ce752"],
+Cell[738, 24, 290, 5, 45, "Input",ExpressionUUID->"7ba61874-2980-460f-a243-4b397424751e"],
+Cell[1031, 31, 1031, 26, 65, "Input",ExpressionUUID->"852fd7c1-1cf5-482b-8ff3-d0c3a9068a3f"],
+Cell[2065, 59, 251, 5, 45, "Input",ExpressionUUID->"4fed2256-5d50-432d-8822-1f3e27d45d2c"],
+Cell[2319, 66, 391, 12, 46, "Input",ExpressionUUID->"5cc39496-923d-4040-b30e-8c4131ffdacc"],
+Cell[2713, 80, 610, 16, 69, "Input",ExpressionUUID->"78c7d368-ff34-4a35-b217-ac205ab63676"],
+Cell[3326, 98, 431, 13, 46, "Input",ExpressionUUID->"83fe53bf-43f6-496a-a0e2-913ba5f0e8c3"],
+Cell[3760, 113, 475, 14, 46, "Input",ExpressionUUID->"09786f8e-a5c7-4961-8087-3d86b612f756"]
+}
+]
+*)
+
