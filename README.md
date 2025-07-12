@@ -1,4 +1,10 @@
 
+![GitHub repo size](https://img.shields.io/github/repo-size/jonfisik/FisicaComputacional)
+![GitHub language count](https://img.shields.io/github/languages/count/jonfisik/FisicaComputacional)
+![GitHub top language](https://img.shields.io/github/languages/top/jonfisik/FisicaComputacional)
+![GitHub](https://img.shields.io/github/license/jonfisik/FisicaComputacional)
+![GitHub followers](https://img.shields.io/github/followers/jonfisik?style=social)
+
 # 🧮 Física Computacional
 
 Repositório dedicado ao estudo e desenvolvimento de códigos aplicados à **Física Computacional**, com ênfase em simulações numéricas, métodos computacionais, e aplicações em física teórica e engenharia.
