@@ -73,9 +73,9 @@ FisicaComputacional/
 
 ## 📬 Contato
 
-📧 jonatanpaschoal@gmail.com  
+📧 jonfisik@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/jonatan-paschoal/)  
-🌐 [Hidrometric](https://hidrometric.com.br)
+🌐 [EngMeter](https://engmeter.com.br)
 
 ---
 
