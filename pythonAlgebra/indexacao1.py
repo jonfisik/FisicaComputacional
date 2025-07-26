@@ -1,6 +1,6 @@
 # Jonatan Paschoal
 # 24 de jul de 2025
-# Indexação (slicing) de matrizes em python
+# Indexação (e slicing) de matrizes em python
 # 
 #-------------------------------------------
 # Slicing de matrizes - indexação de matrizes - parte 1
