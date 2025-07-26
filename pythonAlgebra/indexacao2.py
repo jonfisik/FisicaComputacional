@@ -11,6 +11,7 @@ A = np.array([[2,3,7,1],[8,6,9,3],[6,9,3,2],[4,3,7,5]])
 print('A = \n',A)
 print('dim_A = ',A.shape)
 
+# Em python o último elemento não é incluido
 print('Linha 3 colunas 2, 3 e 4 - [2,1:4] \n',A[2,1:4])
 
 '''
